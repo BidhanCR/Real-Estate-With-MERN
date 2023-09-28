@@ -1,4 +1,4 @@
-import mongoose from "mongoose";
+import mongoose, {Schema} from "mongoose";
 
 const userSchema = new Schema(
   {
@@ -12,7 +12,7 @@ const userSchema = new Schema(
       required: true,
       unique: true,
     },
-    username: {
+    password: {
       type: String,
       required: true,
     },
