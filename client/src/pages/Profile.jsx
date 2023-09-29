@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import { useDispatch, useSelector } from "react-redux"
 import { getStorage, uploadBytesResumable, ref, getDownloadURL } from "firebase/storage";
 import { app } from "../firebase.config";
+import {Link} from "react-router-dom"
 import { deleteUserFailure, deleteUserStart, deleteUserSuccess, signOutUserFailure, signOutUserStart, signOutUserSuccess, updateUserFailure, updateUserStart, updateUserSuccess } from "../redux/features/user/userSlice";
 
 const Profile = () => {
@@ -130,6 +131,7 @@ try {
         <button disabled={loading} className="bg-slate-700 text-white rounded-lg p-3 uppercase hover:opacity-95 disabled:opacity-80">
           {loading ? "Loading..." : "Update"}
         </button>
+        <Link className="bg-green-700 text-white p-3 rounded-lg uppercase text-center hover:opacity-95" to="/create-listing">Create Listing</Link>
       </form>
       <p className="text-red-700 mt-5 text-center">{error ? error : ""}</p>
       <p className="text-green-700 mt-5 text-center">{updateSuccess ? "User is updated successfully" : ""}</p>
