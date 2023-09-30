@@ -1,6 +1,6 @@
 # Building a MERN Stack Real Estate MarketPlace with ReactJS, TailwindCSS, and MongoDB
 
-<img src="https://i.ibb.co/XSkFjPB/Screenshot-4615.png" alt="Screenshot" style="width:400px; height: 300px;">
+<img src="https://i.ibb.co/XSkFjPB/Screenshot-4615.png" alt="Screenshot" style="width:100%; height: 100vh;">
 
 This is a repository for a MERN Stack Real Estate Marketplace with ReactJS, TailwindCSS, and MongoDB.
 
