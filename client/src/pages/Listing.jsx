@@ -15,6 +15,7 @@ import {
   FaShare,
 } from 'react-icons/fa';
 import Contact from '../components/Contact';
+import { Helmet } from 'react-helmet';
 
 
 
@@ -54,6 +55,9 @@ import Contact from '../components/Contact';
 
   return (
     <main>
+       <Helmet>
+        <title>Pinecrest Estate | Details </title>
+      </Helmet>
       {loading && <p className='text-center my-7 text-2xl'>Loading...</p>}
       {error && (
         <p className='text-center my-7 text-2xl'>Something went wrong!</p>

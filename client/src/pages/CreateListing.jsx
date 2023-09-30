@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Helmet } from "react-helmet";
 import {
     getDownloadURL,
     getStorage,
@@ -155,6 +156,9 @@ const CreateListing = () => {
     };
     return (
         <main className='p-3 max-w-4xl mx-auto'>
+            <Helmet>
+                <title>Pinecrest Estate | Create Listing </title>
+            </Helmet>
             <h1 className='text-3xl font-semibold text-center my-7'>
                 Create a Listing
             </h1>
