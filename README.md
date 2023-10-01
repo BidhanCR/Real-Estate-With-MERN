@@ -1,6 +1,6 @@
 # Building a MERN Stack Real Estate MarketPlace with ReactJS, TailwindCSS, and MongoDB
 
-![image](https://i.ibb.co/3W1MXSc/screencapture-pinecrest-estate-vercel-app-2023-09-30-22-46-50.png)
+![image](https://i.ibb.co/r0pQcXq/Screenshot-4616.png)
 
 
 This is a repository for a MERN Stack Real Estate Marketplace with ReactJS, TailwindCSS, and MongoDB.
